@@ -29,7 +29,7 @@ MANA aims to promote active community engagement by enabling members to actively
 2. Market Analysis: Analysts and researchers can use the aggregated data for market sentiment analysis.
 3. Gamified Learning: Beginners in trading can learn about market dynamics in an engaging, low-risk environment.
 --- --- ---
-# Technical Details
+**Technical Details**
 
 # Smart Contract
 The MANA smart contract is built on a secure and scalable blockchain platform, ensuring efficient and reliable execution of voting, staking, and reward distribution.
