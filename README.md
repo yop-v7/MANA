@@ -1,4 +1,7 @@
 # MANA - A Community Directed Decentralized Price Prediction Market
+--- --- ---
+**Project Overview**
+
 MANA is a decentralized platform leveraging blockchain technology to enable community-driven price predictions for various assets. Utilizing the MANA Token (MNAT), participants can vote on future price movements every two hours, stake their tokens, and earn rewards for accurate predictions. The MANA platform aims to harness collective intelligence for market analysis while providing all participants with a fair, transparent, and engaging experience. 
 
 Price prediction is a valuable tool for traders and investors. Traditional methods often rely on expert analysis or algorithmic predictions, which can be biased or lack transparency. MANA offers a decentralized alternative, where community members contribute their insights to predict price movements, creating a collective intelligence that enhances market understanding.
