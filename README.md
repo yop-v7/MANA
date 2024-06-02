@@ -44,7 +44,7 @@ A robust and decentralized oracle system fetches accurate price data, ensuring t
 Token Name: Mana Token
 Token Symbol: MNAT
 Total Supply: 333,000,000 MNAT
-MNAT tokens are used for staking, voting, and reward distribution within the MANA platform. The finite supply ensures value retention and incentivizes active participation.
+MNAT tokens are used for staking, voting, and reward distribution within the MANA platform.
 
 Please take note of the following planned token allocation:
 
