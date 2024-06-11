@@ -38,10 +38,10 @@ MANA aims to promote active community engagement by enabling members to actively
 **Technical Details**
 
 # Smart Contract
-The MANA smart contract is built on a secure and scalable blockchain platform, ensuring efficient and reliable execution of voting, staking, and reward distribution.
+The MANA smart contract is built on the secure and stable Ethereum network, ensuring efficient and reliable execution of voting, staking, and reward distribution.  
 
 # Oracle Integration
-A robust and decentralized oracle system fetches accurate price data, ensuring the integrity and reliability of the outcome verification process.
+A robust and decentralized oracle system fetches accurate price data, ensuring the integrity and reliability of the outcome verification process. 
 
 # Tokenomics
 Token Name: Mana Token
