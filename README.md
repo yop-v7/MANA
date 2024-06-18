@@ -64,6 +64,3 @@ Please take note of the following planned token allocation:
 - Q1 2025: Oracle Integration and Platform Beta Launch
 - Q2 2025: Full Platform Launch and Community Building
 - Q3 2025: Expansion to Additional Assets and Enhanced Features
-
-# Conclusion
-MANA represents a pioneering approach to decentralized price prediction, leveraging the power of community intelligence and blockchain technology. By allowing participants to stake MNAT tokens and vote on price movements, MANA creates a transparent, fair, and engaging platform for market predictions. Join us in revolutionizing the way we understand and engage with financial markets.
