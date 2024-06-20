@@ -51,12 +51,10 @@ MNAT tokens are used for staking, voting, and reward distribution within the MAN
 
 Please take note of the following planned token allocation:
 
-- Founder's Allocation: 15% (49.95M MNAT)
-- Development Fund: 15% (49.95M MNAT)
-- Marketing and Partnerships: 10% (33.3M MNAT)
-- Community and Ecosystem Incentives: 20% (66.6M MNAT)
-- Liquidity Pool: 35% (116.M MNAT)
-- Reserve Fund: 5% (16.65M MNAT)
+Founder's Allocation: 15% (49.95M MNAT)
+Development Fund: 15% (49.95M MNAT)
+Marketing and Partnerships: 10% (33.3M MNAT)
+Community and Ecosystem Incentives + Total Liquidy Pool: 60% (199.8M MNAT)
   
 # Roadmap
 - Q3 2024: Concept Development and White Paper Release
