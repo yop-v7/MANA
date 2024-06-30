@@ -51,10 +51,10 @@ A robust and decentralized oracle system fetches accurate price data, ensuring t
 
 Please take note of the following planned token allocation:
 
-Founder's Allocation: 15% (49.95M MNAT)
-Development Fund: 15% (49.95M MNAT)
-Marketing and Partnerships: 10% (33.3M MNAT)
-Community and Ecosystem Incentives + Total Liquidy Pool: 60% (199.8M MNAT)
+- Founder's Allocation: 15% (49.95M MNAT)
+- Development Fund: 15% (49.95M MNAT)
+- Marketing and Partnerships: 10% (33.3M MNAT)
+- Community and Ecosystem Incentives + Total Liquidy Pool: 60% (199.8M MNAT)
   
 # Roadmap
 - Q3 2024: Concept Development and White Paper Release
