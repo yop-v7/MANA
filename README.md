@@ -62,7 +62,8 @@ Please take note of the following planned token allocation:
 - Q1 2025: Oracle Integration and Platform Beta Launch
 - Q2 2025: Full Platform Launch and Community Building
 - Q3 2025: Expansion to Additional Assets and Enhanced Features
-___ ___ ___
+___ ___ ___# MANA - A Community Directed Decentralized Price Prediction Market
+
 ## Detailed Example
 
 ### Scenario Setup
@@ -88,14 +89,14 @@ Using the formula for accuracy:
 
 \[ \text{Accuracy} = \left| \frac{\text{Predicted Price} - \text{Actual Price}}{\text{Actual Price}} \right| \times 100 \]
 
-- **cg798:** Accuracy = \( \left| \frac{61,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 0.39\% \)
-- **topgwannabe69:** Accuracy = \( \left| \frac{60,762.23 - 60,000}{60,762.23} \right| \times 100 \approx 1.26\% \)
-- **gtc43:** Accuracy = \( \left| \frac{62,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 2.03\% \)
-- **awesomesauce456:** Accuracy = \( \left| \frac{60,762.23 - 60,500}{60,762.23} \right| \times 100 \approx 0.43\% \)
+- **cg798:** Accuracy = \(\left| \frac{61,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 0.39\% \)
+- **topgwannabe69:** Accuracy = \(\left| \frac{60,762.23 - 60,000}{60,762.23} \right| \times 100 \approx 1.26\% \)
+- **gtc43:** Accuracy = \(\left| \frac{62,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 2.03\% \)
+- **awesomesauce456:** Accuracy = \(\left| \frac{60,762.23 - 60,500}{60,762.23} \right| \times 100 \approx 0.43\% \)
 
 ### Identifying Top 33%
 
-- **Total participants to reward:** \( \left\lfloor 0.33 \times 30,000 \right\rfloor = 9,900 \)
+- **Total participants to reward:** \(\left\lfloor 0.33 \times 30,000 \right\rfloor = 9,900 \)
 
 ### Total Reward Pool Calculation
 
@@ -114,17 +115,17 @@ We will distribute rewards to the top 33% participants based on their accuracy. 
 
 Now we calculate each participant’s share:
 
-- **cg798's Share:** \( \frac{0.39}{4.11} \approx 0.094 \)
-- **topgwannabe69's Share:** \( \frac{1.26}{4.11} \approx 0.302 \)
-- **gtc43's Share:** \( \frac{2.03}{4.11} \approx 0.486 \)
-- **awesomesauce456's Share:** \( \frac{0.43}{4.11} \approx 0.103 \)
+- **cg798's Share:** \(\frac{0.39}{4.11} \approx 0.094 \)
+- **topgwannabe69's Share:** \(\frac{1.26}{4.11} \approx 0.302 \)
+- **gtc43's Share:** \(\frac{2.03}{4.11} \approx 0.486 \)
+- **awesomesauce456's Share:** \(\frac{0.43}{4.11} \approx 0.103 \)
 
 #### Calculate Rewards
 
-- **cg798:** Reward = 450,000 MNAT \(\times\) 0.094 \(\approx\) 42,300 MNAT
-- **topgwannabe69:** Reward = 450,000 MNAT \(\times\) 0.302 \(\approx\) 135,900 MNAT
-- **gtc43:** Reward = 450,000 MNAT \(\times\) 0.486 \(\approx\) 218,700 MNAT
-- **awesomesauce456:** Reward = 450,000 MNAT \(\times\) 0.103 \(\approx\) 46,350 MNAT
+- **cg798:** Reward = 450,000 MNAT \(\times 0.094 \approx 42,300\) MNAT
+- **topgwannabe69:** Reward = 450,000 MNAT \(\times 0.302 \approx 135,900\) MNAT
+- **gtc43:** Reward = 450,000 MNAT \(\times 0.486 \approx 218,700\) MNAT
+- **awesomesauce456:** Reward = 450,000 MNAT \(\times 0.103 \approx 46,350\) MNAT
 
 These calculations distribute the rewards proportionally based on the accuracy of the predictions, ensuring that the top 33% participants receive rewards and that those with the highest accuracy get the most significant rewards.
 
