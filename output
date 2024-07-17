@@ -1,4 +1,4 @@
-@PGC:~/mana/core$ npx hardhat test
+@USERV:~/mana/core$ npx hardhat test
 
 Compiled 1 Solidity file successfully (evm target: paris).
 
