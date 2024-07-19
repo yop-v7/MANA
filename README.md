@@ -89,7 +89,10 @@ Using the formula for accuracy:
 
 $$ \text{Accuracy} = \left| \frac{\text{Predicted Price} - \text{Actual Price}}{\text{Actual Price}} \right| \times 100 $$
 
-- **cg798:** Accuracy = $ \left| \frac{61,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 0.39\% $
+- **cg798:** Accuracy =
+
+  $ \left| \frac{61,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 0.39\% $
+  
 - **topgwannabe69:** Accuracy = $ \left| \frac{60,762.23 - 60,000}{60,762.23} \right| \times 100 \approx 1.26\% $
 - **gtc43:** Accuracy = $ \left| \frac{62,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 2.03\% $
 - **awesomesauce456:** Accuracy = $ \left| \frac{60,762.23 - 60,500}{60,762.23} \right| \times 100 \approx 0.43\% $
