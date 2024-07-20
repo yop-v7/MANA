@@ -69,9 +69,9 @@ ___ ___ ___
 ## Scenario Setup
 - **Total participants:** 30,000
 - **Each participant stakes:** 15 MNAT
-- **Total MNAT staked per participant in USD:** 15 MNAT * $3 = $45
-- **Total MNAT staked by all participants:** 30,000 participants * 15 MNAT = 450,000 MNAT
-- **Total value staked in USD:** 450,000 MNAT * $3 = $1,350,000
+- **Total MNAT staked per participant in USD:** $45 (15 MNAT * $3)
+- **Total MNAT staked by all participants:** 450,000 MNAT (30,000 participants * 15 MNAT)
+- **Total value staked in USD:** $1,350,000 (450,000 MNAT * $3)
 
 ## User Predictions and Stakes
 - **cg798:** Predicted 61,000, staked 15 MNAT.
@@ -81,105 +81,36 @@ ___ ___ ___
 
 ## Calculation of Accuracy
 - **Actual Bitcoin price from Chainlink oracle:** 60,762.23
-- **Using the formula for accuracy:**
 
-  \[
-  \text{Accuracy} = \left| \frac{\text{Predicted Price} - \text{Actual Price}}{\text{Actual Price}} \right| \times 100
-  \]
-
-- **cg798: Accuracy**
-
-  \[
-  \left| \frac{61,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 0.39\%
-  \]
-
-- **topgwannabe69: Accuracy**
-
-  \[
-  \left| \frac{60,762.23 - 60,000}{60,762.23} \right| \times 100 \approx 1.26\%
-  \]
-
-- **gtc43: Accuracy**
-
-  \[
-  \left| \frac{62,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 2.03\%
-  \]
-
-- **awesomesauce456: Accuracy**
-
-  \[
-  \left| \frac{60,762.23 - 60,500}{60,762.23} \right| \times 100 \approx 0.43\%
-  \]
+### Accuracy Scores
+- **cg798:** Approximately 0.39%
+- **topgwannabe69:** Approximately 1.26%
+- **gtc43:** Approximately 2.03%
+- **awesomesauce456:** Approximately 0.43%
 
 ## Identifying Top 33%
-- **Total participants to reward:**
-
-  \[
-  \left\lfloor 0.33 \times 30,000 \right\rfloor = 9,900
-  \]
+- **Total participants to reward:** 9,900 (33% of 30,000)
 
 ## Total Reward Pool Calculation
 - **Total MNAT staked:** 450,000 MNAT
 
 ## Reward Distribution
-We will distribute rewards to the top 33% participants based on their accuracy. The reward calculation will be proportional to the inverse of their accuracy score. Here’s how we do it:
+Rewards are distributed to the top 33% participants based on their accuracy. The reward calculation is proportional to the inverse of their accuracy score.
 
 ### Calculation Example for Top Players
-- **Total Share of Top 33%:** Let's calculate the total share for simplicity.
+- **Total Share of Top 33%:** Sum of accuracy scores (e.g., 4.11 for simplicity)
 
-  \[
-  \text{Total Share} = 0.39 + 1.26 + 2.03 + 0.43 = 4.11
-  \]
-
-Now we calculate each participant’s share:
-- **cg798's Share:**
-
-  \[
-  \frac{0.39}{4.11} \approx 0.094
-  \]
-
-- **topgwannabe69's Share:**
-
-  \[
-  \frac{1.26}{4.11} \approx 0.302
-  \]
-
-- **gtc43's Share:**
-
-  \[
-  \frac{2.03}{4.11} \approx 0.486
-  \]
-
-- **awesomesauce456's Share:**
-
-  \[
-  \frac{0.43}{4.11} \approx 0.103
-  \]
+### Each Participant’s Share
+- **cg798's Share:** Approximately 0.094
+- **topgwannabe69's Share:** Approximately 0.302
+- **gtc43's Share:** Approximately 0.486
+- **awesomesauce456's Share:** Approximately 0.103
 
 ### Calculate Rewards
-- **cg798: Reward**
-
-  \[
-  450,000 \text{ MNAT} \times 0.094 \approx 42,300 \text{ MNAT}
-  \]
-
-- **topgwannabe69: Reward**
-
-  \[
-  450,000 \text{ MNAT} \times 0.302 \approx 135,900 \text{ MNAT}
-  \]
-
-- **gtc43: Reward**
-
-  \[
-  450,000 \text{ MNAT} \times 0.486 \approx 218,700 \text{ MNAT}
-  \]
-
-- **awesomesauce456: Reward**
-
-  \[
-  450,000 \text{ MNAT} \times 0.103 \approx 46,350 \text{ MNAT}
-  \]
+- **cg798:** Approximately 42,300 MNAT
+- **topgwannabe69:** Approximately 135,900 MNAT
+- **gtc43:** Approximately 218,700 MNAT
+- **awesomesauce456:** Approximately 46,350 MNAT
 
 These calculations distribute the rewards proportionally based on the accuracy of the predictions, ensuring that the top 33% participants receive rewards and that those with the highest accuracy get the most significant rewards.
 
