@@ -62,82 +62,131 @@ Please take note of the following planned token allocation:
 - Q1 2025: Oracle Integration and Platform Beta Launch
 - Q2 2025: Full Platform Launch and Community Building
 - Q3 2025: Expansion to Additional Assets and Enhanced Features
-___ ___ ___# MANA - A Community Directed Decentralized Price Prediction Market
+___ ___ ___
 
-## A Detailed Example of Reward System
+# A Detailed Example of Reward System
 
-### Scenario Setup
-
+## Scenario Setup
 - **Total participants:** 30,000
 - **Each participant stakes:** 15 MNAT
 - **Total MNAT staked per participant in USD:** 15 MNAT * $3 = $45
 - **Total MNAT staked by all participants:** 30,000 participants * 15 MNAT = 450,000 MNAT
 - **Total value staked in USD:** 450,000 MNAT * $3 = $1,350,000
 
-### User Predictions and Stakes
-
+## User Predictions and Stakes
 - **cg798:** Predicted 61,000, staked 15 MNAT.
 - **topgwannabe69:** Predicted 60,000, staked 15 MNAT.
 - **gtc43:** Predicted 62,000, staked 15 MNAT.
 - **awesomesauce456:** Predicted 60,500, staked 15 MNAT.
 
-### Calculation of Accuracy
-
+## Calculation of Accuracy
 - **Actual Bitcoin price from Chainlink oracle:** 60,762.23
+- **Using the formula for accuracy:**
 
-Using the formula for accuracy:
+  \[
+  \text{Accuracy} = \left| \frac{\text{Predicted Price} - \text{Actual Price}}{\text{Actual Price}} \right| \times 100
+  \]
 
-$$ \text{Accuracy} = \left| \frac{\text{Predicted Price} - \text{Actual Price}}{\text{Actual Price}} \right| \times 100 $$
+- **cg798: Accuracy**
 
-- **cg798:** Accuracy =
+  \[
+  \left| \frac{61,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 0.39\%
+  \]
 
-  $$ \left| \frac{61,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 0.39\% $$
-  
-- **topgwannabe69:** Accuracy = $ \left| \frac{60,762.23 - 60,000}{60,762.23} \right| \times 100 \approx 1.26\% $
-- **gtc43:** Accuracy = $ \left| \frac{62,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 2.03\% $
-- **awesomesauce456:** Accuracy = $ \left| \frac{60,762.23 - 60,500}{60,762.23} \right| \times 100 \approx 0.43\% $
+- **topgwannabe69: Accuracy**
 
-### Identifying Top 33%
+  \[
+  \left| \frac{60,762.23 - 60,000}{60,762.23} \right| \times 100 \approx 1.26\%
+  \]
 
-- **Total participants to reward:** $ \left\lfloor 0.33 \times 30,000 \right\rfloor = 9,900 $
+- **gtc43: Accuracy**
 
-### Total Reward Pool Calculation
+  \[
+  \left| \frac{62,000 - 60,762.23}{60,762.23} \right| \times 100 \approx 2.03\%
+  \]
 
+- **awesomesauce456: Accuracy**
+
+  \[
+  \left| \frac{60,762.23 - 60,500}{60,762.23} \right| \times 100 \approx 0.43\%
+  \]
+
+## Identifying Top 33%
+- **Total participants to reward:**
+
+  \[
+  \left\lfloor 0.33 \times 30,000 \right\rfloor = 9,900
+  \]
+
+## Total Reward Pool Calculation
 - **Total MNAT staked:** 450,000 MNAT
 
-### Reward Distribution
-
+## Reward Distribution
 We will distribute rewards to the top 33% participants based on their accuracy. The reward calculation will be proportional to the inverse of their accuracy score. Here’s how we do it:
 
-#### Calculation Example for Top Players
-
+### Calculation Example for Top Players
 - **Total Share of Top 33%:** Let's calculate the total share for simplicity.
 
-$$ \text{Total Share} = \text{Accuracy of cg798} + \text{Accuracy of topgwannabe69} + \text{Accuracy of gtc43} + \text{Accuracy of awesomesauce456} $$
-$$ \text{Total Share} = 0.39 + 1.26 + 2.03 + 0.43 = 4.11 $$
+  \[
+  \text{Total Share} = 0.39 + 1.26 + 2.03 + 0.43 = 4.11
+  \]
 
 Now we calculate each participant’s share:
+- **cg798's Share:**
 
-- **cg798's Share:** $ \frac{0.39}{4.11} \approx 0.094 $
-- **topgwannabe69's Share:** $ \frac{1.26}{4.11} \approx 0.302 $
-- **gtc43's Share:** $ \frac{2.03}{4.11} \approx 0.486 $
-- **awesomesauce456's Share:** $ \frac{0.43}{4.11} \approx 0.103 $
+  \[
+  \frac{0.39}{4.11} \approx 0.094
+  \]
 
-#### Calculate Rewards
+- **topgwannabe69's Share:**
 
-- **cg798:** Reward = 450,000 MNAT $ \times 0.094 \approx 42,300 $ MNAT
-- **topgwannabe69:** Reward = 450,000 MNAT $ \times 0.302 \approx 135,900 $ MNAT
-- **gtc43:** Reward = 450,000 MNAT $ \times 0.486 \approx 218,700 $ MNAT
-- **awesomesauce456:** Reward = 450,000 MNAT $ \times 0.103 \approx 46,350 $ MNAT
+  \[
+  \frac{1.26}{4.11} \approx 0.302
+  \]
+
+- **gtc43's Share:**
+
+  \[
+  \frac{2.03}{4.11} \approx 0.486
+  \]
+
+- **awesomesauce456's Share:**
+
+  \[
+  \frac{0.43}{4.11} \approx 0.103
+  \]
+
+### Calculate Rewards
+- **cg798: Reward**
+
+  \[
+  450,000 \text{ MNAT} \times 0.094 \approx 42,300 \text{ MNAT}
+  \]
+
+- **topgwannabe69: Reward**
+
+  \[
+  450,000 \text{ MNAT} \times 0.302 \approx 135,900 \text{ MNAT}
+  \]
+
+- **gtc43: Reward**
+
+  \[
+  450,000 \text{ MNAT} \times 0.486 \approx 218,700 \text{ MNAT}
+  \]
+
+- **awesomesauce456: Reward**
+
+  \[
+  450,000 \text{ MNAT} \times 0.103 \approx 46,350 \text{ MNAT}
+  \]
 
 These calculations distribute the rewards proportionally based on the accuracy of the predictions, ensuring that the top 33% participants receive rewards and that those with the highest accuracy get the most significant rewards.
 
-## Technical Documentation for `MANA.sol` Contract
-
-The `MANA.sol` contract is designed to facilitate a decentralized price prediction market using the MNAT token. Here is a detailed breakdown of its components and functionality:
+## Technical Documentation for MANA.sol Contract
+The MANA.sol contract is designed to facilitate a decentralized price prediction market using the MNAT token. Here is a detailed breakdown of its components and functionality:
 
 ### Key Components
-
 - **VotingPeriod Struct:** Defines each voting period, including start time, total staked tokens, votes, participants, actual price, and price set status.
 - **Vote Struct:** Stores individual votes, including predicted price, staked amount, and claimed reward status.
 - **Constants:** Defines the voting interval (2 hours), pause duration (10 minutes), and warning threshold (10,000 MNAT).
@@ -145,23 +194,19 @@ The `MANA.sol` contract is designed to facilitate a decentralized price predicti
 - **Mappings:** Manages voting periods and user votes.
 
 ### Events
-
 - **TokensStaked:** Emitted when a user stakes tokens.
 - **RewardClaimed:** Emitted when a user claims their reward.
 - **HighStakeWarning:** Emitted when a user stakes an amount above the warning threshold.
 - **LiquidityDistributed:** Emitted when liquidity is distributed to the liquidity pool.
 
 ### Constructor
-
 Initializes the contract with the MNAT token and Chainlink price feed addresses, setting the owner and initial voting time.
 
 ### Modifiers
-
 - **onlyOracle:** Restricts access to oracle-specific functions.
 - **onlyOwner:** Restricts access to owner-specific functions.
 
 ### Functions
-
 - **transferOwnership:** Allows the owner to transfer contract ownership.
 - **setOracle:** Allows the owner to set the oracle address.
 - **stakeTokens:** Allows users to stake tokens and predict prices within the allowed timeframe.
@@ -173,25 +218,23 @@ Initializes the contract with the MNAT token and Chainlink price feed addresses,
 - **distributeLiquidity:** Distributes staked tokens to a liquidity pool at the end of each voting period.
 
 ### Example Use Case
+- **Staking Tokens:**
+  Users call `stakeTokens` to stake their MNAT tokens and submit their predicted Bitcoin price.
+  Example: `stakeTokens(15, 61000)`
 
-1. **Staking Tokens:**
-   - Users call `stakeTokens` to stake their MNAT tokens and submit their predicted Bitcoin price.
-   - Example: `stakeTokens(15, 61000)`
+- **Setting Actual Price:**
+  The oracle calls `setActualPrice` to set the actual Bitcoin price at the end of the voting period.
+  Example: `setActualPrice()`
 
-2. **Setting Actual Price:**
-   - The oracle calls `setActualPrice` to set the actual Bitcoin price at the end of the voting period.
-   - Example: `setActualPrice()`
+- **Claiming Rewards:**
+  Users call `claimReward` to claim their rewards based on prediction accuracy.
+  Example: `claimReward(1)`
 
-3. **Claiming Rewards:**
-   - Users call `claimReward` to claim their rewards based on prediction accuracy.
-   - Example: `claimReward(1)`
-
-4. **Distributing Liquidity:**
-   - The contract internally calls `distributeLiquidity` to transfer staked tokens to the liquidity pool.
-   - Example: Internal call during reward distribution.
+- **Distributing Liquidity:**
+  The contract internally calls `distributeLiquidity` to transfer staked tokens to the liquidity pool.
+  Example: Internal call during reward distribution.
 
 ### NOTE
+My goal for the MANA contract is to provide the ability to test the skills of the user while also making money. The markets are already competitive enough, but with the "Lucky 33 protocol" (yes, I'm calling it that), I think this will add a cherry on top. Especially since it takes money to make money on exchanges. Imagine you log on one day, you stake 15 tokens, and your payout is significantly larger than you even dreamed of!
 
-My goal for the MANA contract is to provide the ability to test the skills of the user, while also making money. The markets are already competitive enough, but with the "Lucky 33 protocol" (yes im calling it that), I think this will add a cherry on top. Especcially since it takes money to make money on exchanges. Imagine you log on one day, you stake 15 tokens and your payout is signifigantly larger than you even dreamed of!
-
-Anyways, imma go back to the code now, so bye 
+Anyways, I'm going back to the code now, so bye.
