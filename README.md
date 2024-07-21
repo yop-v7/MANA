@@ -1,171 +1,187 @@
 # MANA - A Community Directed Decentralized Price Prediction Market
---- --- ---
 
-# Abstract
 The concept of cryptocurrency has been in existence for around 40 years and has now become a significant asset for investors to consider. Cryptocurrencies enable tradable exchange without the involvement of a third party, leading many individuals to pursue cryptocurrency trading as a career. With tradable cryptocurrencies like Bitcoin, Ethereum, Solana, and more, it's increasingly possible for people with limited experience in cryptocurrency and investing to quickly acquire knowledge and skills in this field. This often leads to a deep interest in the financial markets. MANA is positioned as a platform for profitable trading and a community-driven marketplace. While other organizations have introduced features enabling users to make predictions and interact, MANA aims to welcome users of all experience levels to test their expertise. It's a place where users can vote on the price movements of cryptocurrencies.
 
-# Project Overview
-MANA is a decentralized platform leveraging blockchain technology to enable community-driven price predictions for various assets. Utilizing the MANA Token (MNAT), participants can vote on future price movements every two hours, stake their tokens, and earn rewards for accurate predictions. The MANA platform aims to harness collective intelligence for market analysis while providing all participants with a fair, transparent, and engaging experience. 
+## Project Overview
+
+MANA is a decentralized platform leveraging blockchain technology to enable community-driven price predictions for various assets. Utilizing the MANA Token (MNAT), participants can vote on future price movements every two hours, stake their tokens, and earn rewards for accurate predictions. The MANA platform aims to harness collective intelligence for market analysis while providing all participants with a fair, transparent, and engaging experience.
 
 Price prediction is a valuable tool for traders and investors. Traditional methods often rely on expert analysis or algorithmic predictions, which can be biased or lack transparency. MANA offers a decentralized alternative, where community members contribute their insights to predict price movements, creating a collective intelligence that enhances market understanding.
 
-# Voting Mechanism
+### Voting Mechanism
+
 Community members must submit their predictions on where the price of a specific asset will be every two hours. This continuous voting cycle ensures up-to-date and relevant predictions that reflect the latest market sentiments.
 
-# Staking
+### Staking
+
 To participate in voting, members must stake MNAT tokens. Staking serves as a commitment to their prediction and helps prevent spam or malicious activities. The amount staked reflects the voter's confidence in their prediction. By staking tokens, users contribute to a larger pool of staked tokens that are then distributed amongst voters with the most accuracy. To maximize potential gains, members will need to stake more tokens. In other words, the more you put in, the more you'll get out.
 
-# Data Collection
-The smart contract records all votes and the corresponding staked amounts, ensuring complete transparency and immutability of the voting process. This data is publicly accessible and verifiable by anyone. While the voting data is public, the identity of the voters remains pseudonymous, linked only to their wallet addresses, to maintain the utmost security and privacy possible. 
+### Data Collection
 
-# Outcome Verification
+The smart contract records all votes and the corresponding staked amounts, ensuring complete transparency and immutability of the voting process. This data is publicly accessible and verifiable by anyone. While the voting data is public, the identity of the voters remains pseudonymous, linked only to their wallet addresses, to maintain the utmost security and privacy possible.
+
+### Outcome Verification
+
 At the end of each voting period (every two hours), an oracle retrieves the actual price data from a reliable source. The smart contract then verifies the outcome by comparing the actual price change to the community's predictions.
 
-# Reward Distribution
+### Reward Distribution
+
 Participants who make correct predictions about price movements receive rewards from the staked tokens. The rewards are distributed proportionally based on the amount staked, which encourages accurate predictions and active participation. Those who make incorrect predictions forfeit their staked tokens, which are then redistributed among the correct predictors.
 
-# Security and Fairness
+### Security and Fairness
+
 The smart contract ensures that the voting process is secure and tamper-proof. Utilizing a reliable oracle minimizes the risk of manipulation, maintaining the integrity of the prediction outcomes.
 
-# Community Engagement
+### Community Engagement
+
 MANA aims to promote active community engagement by enabling members to actively participate in market predictions. This engagement not only provides valuable insights into market trends but also creates a gamified experience that is both educational and rewarding.
 
-**Use Cases:**
-1. Trading Signals: Traders can utilize the collective predictions as signals to inform their trading strategies.
-2. Market Analysis: Analysts and researchers can use the aggregated data for market sentiment analysis.
-3. Gamified Learning: Beginners in trading can learn about market dynamics in an engaging, low-risk environment.
---- --- ---
-**Technical Details**
+## Use Cases
 
-# Smart Contract
-The MANA smart contract is built on the secure and stable Ethereum network, ensuring efficient and reliable execution of voting, staking, and reward distribution.  
+- **Trading Signals**: Traders can utilize the collective predictions as signals to inform their trading strategies.
+- **Market Analysis**: Analysts and researchers can use the aggregated data for market sentiment analysis.
+- **Gamified Learning**: Beginners in trading can learn about market dynamics in an engaging, low-risk environment.
 
-# Oracle Integration
-A robust and decentralized oracle system fetches accurate price data, ensuring the integrity and reliability of the outcome verification process. 
+## Technical Details
 
-# Tokenomics
-- Token Name: Mana Token
-- Token Symbol: MNAT
-- Total Supply: 333,000,000 MNAT
-- MNAT tokens are used for staking, voting, and reward distribution within the MANA platform.
+### Smart Contract
 
-Please take note of the following planned token allocation:
+The MANA smart contract is built on the secure and stable Ethereum network, ensuring efficient and reliable execution of voting, staking, and reward distribution.
 
-- Founder's Allocation: 15% (49.95M MNAT)
-- Development Fund: 15% (49.95M MNAT)
-- Marketing and Partnerships: 10% (33.3M MNAT)
-- Community and Ecosystem Incentives + Total Liquidy Pool: 60% (199.8M MNAT)
-  
-# Roadmap
-- Q3 2024: Concept Development and White Paper Release
-- Q4 2024: Smart Contract Development and Testing
-- Q1 2025: Oracle Integration and Platform Beta Launch
-- Q2 2025: Full Platform Launch and Community Building
-- Q3 2025: Expansion to Additional Assets and Enhanced Features
-___ ___ ___
+### Oracle Integration
 
-# A Detailed Example of Reward System
+A robust and decentralized oracle system fetches accurate price data, ensuring the integrity and reliability of the outcome verification process.
 
-## Scenario Setup
-- **Total participants:** 30,000
-- **Each participant stakes:** 15 MNAT
-- **Total MNAT staked per participant in USD:** $45 (15 MNAT * $3)
-- **Total MNAT staked by all participants:** 450,000 MNAT (30,000 participants * 15 MNAT)
-- **Total value staked in USD:** $1,350,000 (450,000 MNAT * $3)
+### Tokenomics
 
-## User Predictions and Stakes
-- **cg798:** Predicted 61,000, staked 15 MNAT.
-- **topgwannabe69:** Predicted 60,000, staked 15 MNAT.
-- **gtc43:** Predicted 62,000, staked 15 MNAT.
-- **awesomesauce456:** Predicted 60,500, staked 15 MNAT.
+- **Token Name**: Mana Token
+- **Token Symbol**: MNAT
+- **Total Supply**: 333,000,000 MNAT
 
-## Calculation of Accuracy
-- **Actual Bitcoin price from Chainlink oracle:** 60,762.23
+MNAT tokens are used for staking, voting, and reward distribution within the MANA platform. Please take note of the following planned token allocation:
 
-### Accuracy Scores
-- **cg798:** Approximately 0.39%
-- **topgwannabe69:** Approximately 1.26%
-- **gtc43:** Approximately 2.03%
-- **awesomesauce456:** Approximately 0.43%
+- **Founder's Allocation**: 15% (49.95M MNAT)
+- **Development Fund**: 15% (49.95M MNAT)
+- **Marketing and Partnerships**: 10% (33.3M MNAT)
+- **Community and Ecosystem Incentives + Total Liquidy Pool**: 60% (199.8M MNAT)
 
-## Identifying Top 33%
-- **Total participants to reward:** 9,900 (33% of 30,000)
+### Roadmap
 
-## Total Reward Pool Calculation
-- **Total MNAT staked:** 450,000 MNAT
+- **Q3 2024**: Concept Development and White Paper Release
+- **Q4 2024**: Smart Contract Development and Testing
+- **Q1 2025**: Oracle Integration and Platform Beta Launch
+- **Q2 2025**: Full Platform Launch and Community Building
+- **Q3 2025**: Expansion to Additional Assets and Enhanced Features
 
-## Reward Distribution
+## A Detailed Example of Reward System
+
+### Scenario Setup
+
+- **Total participants**: 30,000
+- **Each participant stakes**: 15 MNAT
+- **Total MNAT staked per participant in USD**: $45 (15 MNAT * $3)
+- **Total MNAT staked by all participants**: 450,000 MNAT (30,000 participants * 15 MNAT)
+- **Total value staked in USD**: $1,350,000 (450,000 MNAT * $3)
+
+### User Predictions and Stakes
+
+- **cg798**: Predicted 61,000, staked 15 MNAT.
+- **topgwannabe69**: Predicted 60,000, staked 15 MNAT.
+- **gtc43**: Predicted 62,000, staked 15 MNAT.
+- **awesomesauce456**: Predicted 60,500, staked 15 MNAT.
+
+### Calculation of Accuracy
+
+- **Actual Bitcoin price from Chainlink oracle**: 60,762.23
+
+#### Accuracy Scores
+
+- **cg798**: Approximately 0.39%
+- **topgwannabe69**: Approximately 1.26%
+- **gtc43**: Approximately 2.03%
+- **awesomesauce456**: Approximately 0.43%
+
+### Identifying Top 33%
+
+- **Total participants to reward**: 9,900 (33% of 30,000)
+
+### Total Reward Pool Calculation
+
+- **Total MNAT staked**: 450,000 MNAT
+
+### Reward Distribution
+
 Rewards are distributed to the top 33% participants based on their accuracy. The reward calculation is proportional to the inverse of their accuracy score.
 
 ### Calculation Example for Top Players
-- **Total Share of Top 33%:** Sum of accuracy scores (e.g., 4.11 for simplicity)
 
-### Each Participant’s Share
-- **cg798's Share:** Approximately 0.094
-- **topgwannabe69's Share:** Approximately 0.302
-- **gtc43's Share:** Approximately 0.486
-- **awesomesauce456's Share:** Approximately 0.103
+- **Total Share of Top 33%**: Sum of accuracy scores (e.g., 4.11 for simplicity)
 
-### Calculate Rewards
-- **cg798:** Approximately 42,300 MNAT
-- **topgwannabe69:** Approximately 135,900 MNAT
-- **gtc43:** Approximately 218,700 MNAT
-- **awesomesauce456:** Approximately 46,350 MNAT
+#### Each Participant’s Share
+
+- **cg798's Share**: Approximately 0.094
+- **topgwannabe69's Share**: Approximately 0.302
+- **gtc43's Share**: Approximately 0.486
+- **awesomesauce456's Share**: Approximately 0.103
+
+#### Calculate Rewards
+
+- **cg798**: Approximately 42,300 MNAT
+- **topgwannabe69**: Approximately 135,900 MNAT
+- **gtc43**: Approximately 218,700 MNAT
+- **awesomesauce456**: Approximately 46,350 MNAT
 
 These calculations distribute the rewards proportionally based on the accuracy of the predictions, ensuring that the top 33% participants receive rewards and that those with the highest accuracy get the most significant rewards.
 
 ## Technical Documentation for MANA.sol Contract
+
 The MANA.sol contract is designed to facilitate a decentralized price prediction market using the MNAT token. Here is a detailed breakdown of its components and functionality:
 
 ### Key Components
-- **VotingPeriod Struct:** Defines each voting period, including start time, total staked tokens, votes, participants, actual price, and price set status.
-- **Vote Struct:** Stores individual votes, including predicted price, staked amount, and claimed reward status.
-- **Constants:** Defines the voting interval (2 hours), pause duration (10 minutes), and warning threshold (10,000 MNAT).
-- **State Variables:** Stores the next voting time, oracle address, owner address, current voting period ID, MNAT token instance, and Chainlink price feed instance.
-- **Mappings:** Manages voting periods and user votes.
+
+- **VotingPeriod Struct**: Defines each voting period, including start time, total staked tokens, votes, participants, actual price, and price set status.
+- **Vote Struct**: Stores individual votes, including predicted price, staked amount, and claimed reward status.
+- **Constants**: Defines the voting interval (2 hours), pause duration (10 minutes), and warning threshold (10,000 MNAT).
+- **State Variables**: Stores the next voting time, oracle address, owner address, current voting period ID, MNAT token instance, and Chainlink price feed instance.
+- **Mappings**: Manages voting periods and user votes.
 
 ### Events
-- **TokensStaked:** Emitted when a user stakes tokens.
-- **RewardClaimed:** Emitted when a user claims their reward.
-- **HighStakeWarning:** Emitted when a user stakes an amount above the warning threshold.
-- **LiquidityDistributed:** Emitted when liquidity is distributed to the liquidity pool.
+
+- **TokensStaked**: Emitted when a user stakes tokens.
+- **RewardClaimed**: Emitted when a user claims their reward.
+- **HighStakeWarning**: Emitted when a user stakes an amount above the warning threshold.
+- **LiquidityDistributed**: Emitted when liquidity is distributed to the liquidity pool.
 
 ### Constructor
+
 Initializes the contract with the MNAT token and Chainlink price feed addresses, setting the owner and initial voting time.
 
 ### Modifiers
-- **onlyOracle:** Restricts access to oracle-specific functions.
-- **onlyOwner:** Restricts access to owner-specific functions.
+
+- **onlyOracle**: Restricts access to oracle-specific functions.
+- **onlyOwner**: Restricts access to owner-specific functions.
 
 ### Functions
-- **transferOwnership:** Allows the owner to transfer contract ownership.
-- **setOracle:** Allows the owner to set the oracle address.
-- **stakeTokens:** Allows users to stake tokens and predict prices within the allowed timeframe.
-- **getLatestPrice:** Retrieves the latest Bitcoin price from the Chainlink oracle.
-- **setActualPrice:** Sets the actual Bitcoin price for the current voting period (only callable by the oracle).
-- **calculateAccuracy:** Calculates the accuracy of a user's prediction.
-- **claimReward:** Allows users to claim their rewards based on prediction accuracy.
-- **calculateReward:** Calculates the reward based on staked amount and accuracy.
-- **distributeLiquidity:** Distributes staked tokens to a liquidity pool at the end of each voting period.
+
+- **transferOwnership**: Allows the owner to transfer contract ownership.
+- **setOracle**: Allows the owner to set the oracle address.
+- **stakeTokens**: Allows users to stake tokens and predict prices within the allowed timeframe.
+- **getLatestPrice**: Retrieves the latest Bitcoin price from the Chainlink oracle.
+- **setActualPrice**: Sets the actual Bitcoin price for the current voting period (only callable by the oracle).
+- **calculateAccuracy**: Calculates the accuracy of a user's prediction.
+- **claimReward**: Allows users to claim their rewards based on prediction accuracy.
+- **calculateReward**: Calculates the reward based on staked amount and accuracy.
+- **distributeLiquidity**: Distributes staked tokens to a liquidity pool at the end of each voting period.
 
 ### Example Use Case
-- **Staking Tokens:**
-  Users call `stakeTokens` to stake their MNAT tokens and submit their predicted Bitcoin price.
-  Example: `stakeTokens(15, 61000)`
 
-- **Setting Actual Price:**
-  The oracle calls `setActualPrice` to set the actual Bitcoin price at the end of the voting period.
-  Example: `setActualPrice()`
-
-- **Claiming Rewards:**
-  Users call `claimReward` to claim their rewards based on prediction accuracy.
-  Example: `claimReward(1)`
-
-- **Distributing Liquidity:**
-  The contract internally calls `distributeLiquidity` to transfer staked tokens to the liquidity pool.
-  Example: Internal call during reward distribution.
+- **Staking Tokens**: Users call stakeTokens to stake their MNAT tokens and submit their predicted Bitcoin price. Example: `stakeTokens(15, 61000)`
+- **Setting Actual Price**: The oracle calls setActualPrice to set the actual Bitcoin price at the end of the voting period. Example: `setActualPrice()`
+- **Claiming Rewards**: Users call claimReward to claim their rewards based on prediction accuracy. Example: `claimReward(1)`
+- **Distributing Liquidity**: The contract internally calls distributeLiquidity to transfer staked tokens to the liquidity pool. Example: Internal call during reward distribution.
 
 ### NOTE
+
 My goal for the MANA contract is to provide the ability to test the skills of the user while also making money. The markets are already competitive enough, but with the "Lucky 33 protocol" (yes, I'm calling it that), I think this will add a cherry on top. Especially since it takes money to make money on exchanges. Imagine you log on one day, you stake 15 tokens, and your payout is significantly larger than you even dreamed of!
 
 Anyways, I'm going back to the code now, so bye.
